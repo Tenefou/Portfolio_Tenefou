@@ -6,6 +6,7 @@ function Button({
   radius = "8px",
   color = "#DBC072",
   height = "auto",
+  width = "auto",
   fontFamily = "Kameron",
   ...props
 }) {
@@ -25,8 +26,10 @@ function Button({
         backgroundColor: color,
         cursor: "pointer",
         height: height,
+        width: width,
         lineHeight: "0.1",
         fontFamily: fontFamily,
+        fontSize: "18px",
       }}
       {...props}
     >
@@ -42,6 +45,7 @@ Button.propTypes = {
   color: PropTypes.string,
   height: PropTypes.string,
   fontFamily: PropTypes.string,
+  width: PropTypes.string,
 };
 
 export default Button;

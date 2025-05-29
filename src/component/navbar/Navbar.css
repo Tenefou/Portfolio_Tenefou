@@ -1,4 +1,7 @@
 .navbar {
+  background: rgba(33, 22, 38, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
   left: 0;
@@ -11,7 +14,6 @@
 }
 
 .navbar__logo {
-  padding-top: 5vh;
   padding-left: 20vh;
   width: 10%;
   height: 100%;
@@ -19,8 +21,4 @@
 
 .navbar__links {
   padding-right: 20vh;
-}
-
-Button {
-  margin-top: 25px;
 }

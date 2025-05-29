@@ -12,7 +12,7 @@ function Navbar() {
         <Canvas>
           <ambientLight intensity={1} />
           <mesh rotation={[0, -Math.PI / 2, 0]} position={[0, -1, 0]}>
-            <Model scale={1} args={[2, 2, 2]} />
+            <Model scale={0.8} args={[2, 2, 2]} />
           </mesh>
           <OrbitControls
             autoRotate
@@ -24,7 +24,7 @@ function Navbar() {
         </Canvas>
       </div>
       <div className="navbar__links">
-        <Button size="medium" radius="2px" height="25px">
+        <Button size="medium" radius="4px" height="30px" width="125px">
           Contact
         </Button>
       </div>
