@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Slab:wght@400;700&family=K2D:wght@400;700&family=Kameron:wght@400;700&family=Kantumruy+Pro:wght@400;700&family=Kodchasan:wght@400;700&display=swap");
+
+:root {
+  background-color: #211626;
+  --color-primary: #dbc072;
+  --color-secondary: #eed5ff;
+  --color-background: #211626;
+  --color-text: #ffcef6;
+}
