@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-between;
   color: white;
+  padding-bottom: 80vh;
 }
 
 .projects__texte {
@@ -18,4 +19,16 @@
   height: 100%;
   font-family: "Kantumruy Pro";
   color: var(--color-text);
+  padding-bottom: 20px;
+}
+
+.projects__projects {
+  display: grid;
+  width: 80vw;
+  height: 100vh;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10vh;
+  padding: 10vh;
+  margin: 0;
+  box-sizing: border-box;
 }
