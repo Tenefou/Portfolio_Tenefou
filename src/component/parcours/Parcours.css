@@ -1,0 +1,35 @@
+.parcours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 130vh;
+  background-image: url(../../../public/Font.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Kantumruy Pro";
+  color: var(--color-text);
+}
+
+.parcours__current {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.parcours__current img {
+  height: 20vh;
+  width: auto;
+  object-fit: contain;
+}
+
+.parcours__current__texte {
+  display: flex;
+  font-family: "Inter";
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
