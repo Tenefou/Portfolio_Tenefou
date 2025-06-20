@@ -19,24 +19,24 @@ function Parcours() {
         style={{ marginBottom: "70px", marginLeft: "20vw" }}
       />
       <ExperienceItem
-        titre="Alternance - Ingénieur Développeur FULLSTACK"
-        entreprise="GROUPAMA SUPPORTS ET SERVICES"
-        lieu="France"
-        periode="OCTOBRE 2023 - AUJOURD'HUI"
+        titre="Stage technicien - Développeur Informatique"
+        entreprise="KORBANK"
+        lieu="Pologne"
+        periode="AOUT - OCTOBRE 2024 "
         logo="public/G2S.jpg"
         alt="Logo Groupama"
         rightAligned={false}
         style={{ marginBottom: "70px", marginRight: "0vw" }}
       />
       <ExperienceItem
-        titre="Alternance - Ingénieur Développeur FULLSTACK"
-        entreprise="GROUPAMA SUPPORTS ET SERVICES"
-        lieu="France"
-        periode="OCTOBRE 2023 - AUJOURD'HUI"
+        titre="Stage exécutant  - Agent d’entretien"
+        entreprise="MIKAZUKI HOTEL"
+        lieu="Japon"
+        periode="AOUT 2023"
         logo="public/G2S.jpg"
         alt="Logo Groupama"
         rightAligned={true}
-        style={{ marginBottom: "70px", marginLeft: "27vw" }}
+        style={{ marginBottom: "70px", marginLeft: "47vw" }}
       />
     </div>
   );
