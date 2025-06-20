@@ -3,7 +3,7 @@ import ProjectCard from "../projectCard/ProjectCard";
 
 function Projects() {
   return (
-    <div className="projects" style={{ paddingBottom: "750px" }}>
+    <div className="projects" style={{ paddingBottom: "85vh" }}>
       <div className="projects__texte">
         <h1>Mes projets</h1>
         <div className="projects__projects">

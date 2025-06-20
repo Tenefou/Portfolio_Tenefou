@@ -15,6 +15,7 @@ function ExperienceItem({
       className="parcours__current"
       style={{
         flexDirection: rightAligned ? "row" : "row-reverse",
+        gap: "8vw",
         ...style,
       }}
     >

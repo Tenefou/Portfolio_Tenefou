@@ -3,9 +3,7 @@ import ExperienceItem from "../experienceItems/ExperienceItem.jsx";
 function Parcours() {
   return (
     <div className="parcours">
-      <h1
-        style={{ fontSize: "35px", marginTop: "-10px", marginBottom: "40px" }}
-      >
+      <h1 style={{ marginTop: "-10px", marginBottom: "6vh" }}>
         Expérience Professionnelle
       </h1>
       <h4 style={{ fontSize: "25px", fontFamily: "Kodchasan" }}>
@@ -18,7 +16,7 @@ function Parcours() {
         periode="OCTOBRE 2023 - AUJOURD'HUI"
         logo="public/G2S.jpg"
         alt="Logo Groupama"
-        style={{ marginBottom: "70px" }}
+        style={{ marginBottom: "70px", marginLeft: "20vw" }}
       />
       <ExperienceItem
         titre="Alternance - Ingénieur Développeur FULLSTACK"
@@ -28,6 +26,17 @@ function Parcours() {
         logo="public/G2S.jpg"
         alt="Logo Groupama"
         rightAligned={false}
+        style={{ marginBottom: "70px", marginRight: "0vw" }}
+      />
+      <ExperienceItem
+        titre="Alternance - Ingénieur Développeur FULLSTACK"
+        entreprise="GROUPAMA SUPPORTS ET SERVICES"
+        lieu="France"
+        periode="OCTOBRE 2023 - AUJOURD'HUI"
+        logo="public/G2S.jpg"
+        alt="Logo Groupama"
+        rightAligned={true}
+        style={{ marginBottom: "70px", marginLeft: "27vw" }}
       />
     </div>
   );

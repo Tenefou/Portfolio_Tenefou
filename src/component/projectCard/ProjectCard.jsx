@@ -58,6 +58,7 @@ function ProjectCard({
         style={{
           paddingLeft: "15px",
           color: "var(--color-primary)",
+          fontSize: "2em",
           fontWeight: 1000,
           paddingBottom: "20px",
         }}
