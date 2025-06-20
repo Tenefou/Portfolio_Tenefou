@@ -6,4 +6,32 @@
   --color-secondary: #eed5ff;
   --color-background: #211626;
   --color-text: #ffcef6;
+
+  /* Tailles de police */
+  --font-size-large: 3rem;
+  --font-size-medium: 1.5rem;
+  --font-size-small: 1rem;
+
+  /* Espacements */
+  --spacing-large: 20vh;
+  --spacing-medium: 10vh;
+  --spacing-small: 2vh;
+
+  /* Dimensions */
+  --width-full: 100%;
+  --height-full: 100vh;
+  --width-half: 50%;
+  --height-half: 50vh;
+}
+
+h1 {
+  font-size: var(--font-size-large);
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+}
+
+h3 {
+  font-size: var(--font-size-small);
 }

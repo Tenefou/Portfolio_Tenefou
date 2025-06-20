@@ -4,16 +4,21 @@ Command: npx gltfjsx@6.5.3 RG.glb --transform
 Files: RG.glb [139.41KB] > C:\Users\Gaspar\_Projets\repos\WebDev\RIVOIRE--GAIAO_Gaspar\RG-transformed.glb [9.7KB] (93%)
 */
 
-import React from 'react'
-import { useGLTF } from '@react-three/drei'
+import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/RG-transformed.glb')
+  const { nodes, materials } = useGLTF("/RG-transformed.glb");
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.RG.geometry} material={materials.Primary} position={[0, 0, -0.004]} rotation={[0, Math.PI / 2, 0]} scale={6.051} />
+      <mesh
+        geometry={nodes.RG.geometry}
+        material={materials.Primary}
+        position={[0, 0, -0.004]}
+        rotation={[0, Math.PI / 2, 0]}
+        scale={6.051}
+      />
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/RG-transformed.glb')
+useGLTF.preload("/RG-transformed.glb");

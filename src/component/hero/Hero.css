@@ -20,11 +20,6 @@
   color: var(--color-text);
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
 .hero__logo {
   width: 130vh;
   height: 100%;
@@ -35,7 +30,7 @@ h1 {
 h2 {
   font-family: "Josefin Slab";
   color: #ffff;
-  line-height: 5vh;
+  line-height: 3.5vh;
   font-weight: 600;
 }
 
@@ -56,10 +51,10 @@ h2 {
 
 .hero__circle-vert {
   position: absolute;
-  top: 37.1vw;
-  left: 11.8vw;
-  width: 1.2vw;
-  height: 1.2vw;
+  top: 33.5vw;
+  left: 12.5vw;
+  width: 1.4vw;
+  height: 1.4vw;
   background: #22c55e;
   border-radius: 50%;
   z-index: 2;
