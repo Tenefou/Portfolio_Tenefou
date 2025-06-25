@@ -11,12 +11,39 @@ const Contact = () => {
         du temps n’est pas illimité, donc plus tôt vous me contactez, et mieux
         ça sera.
       </p>
-      <div className="contact-info">
-        <img src="profile.jpg" alt="Profile" className="profile-pic" />
-        <span>Temps de réponse : 1 à 2 jours ouvré</span>
+      <div
+        className="hero__contact"
+        style={{ justifyContent: "center", paddingTop: "0px" }}
+      >
+        <div className="contact__circle-vert"></div>
+        <img src="public/20250404_185557.jpg" alt="" />
+        <h2
+          style={{ fontWeight: "400", fontFamily: "K2D", fontSize: "1.2rem" }}
+        >
+          <span style={{ fontWeight: "bolder" }}>Temps de réponse :</span> 1 à 2
+          jours ouvré
+        </h2>
       </div>
-      <button className="email-button">gaspar.rivoire@gmail.com</button>
+      <button
+        className="email-button"
+        onClick={() =>
+          window.open(
+            "https://calendly.com/gaspar-rg69/30min",
+            "_blank",
+            "noopener,noreferrer"
+          )
+        }
+      >
+        Prendre rendez-vous
+      </button>
       <div className="social-icons">
+        <img src="public/github.png" alt="" />
+        <img src="" alt="" />
+
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+
         <a href="#" className="icon-link">
           GitHub
         </a>

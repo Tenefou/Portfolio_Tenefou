@@ -5,7 +5,7 @@
   --color-primary: #dbc072;
   --color-secondary: #eed5ff;
   --color-background: #211626;
-  --color-text: #ffcef6;
+  --color-text: #d8d6d6;
 
   /* Tailles de police */
   --font-size-large: 3rem;
@@ -26,6 +26,7 @@
 
 h1 {
   font-size: var(--font-size-large);
+  color: var(--color-secondary);
 }
 
 h2 {
