@@ -22,15 +22,13 @@ function Hero() {
           <span style={{ color: "var(--color-primary)" }}>
             Groupama Supports et Services
           </span>
-          , et aussi developpeur de site internet pour petite entreprise en{" "}
-          <span style={{ color: "var(--color-primary)" }}>Freelance</span>
         </h2>
         <Button size="large" radius="2px" height="50px" width="250px">
           Me contacter
         </Button>
         <div className="hero__contact">
           <div className="hero__circle-vert"></div>
-          <img src="public/20250404_185557.jpg" alt="" />
+          <img src="/20250404_185557.jpg" alt="" />
           <h2 style={{ fontWeight: "400" }}>
             <span style={{ fontWeight: "bolder" }}>Temps de réponse :</span> 1 à
             2 jours ouvré

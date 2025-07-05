@@ -16,7 +16,7 @@ const Contact = () => {
         style={{ justifyContent: "center", paddingTop: "0px" }}
       >
         <div className="contact__circle-vert"></div>
-        <img src="public/20250404_185557.jpg" alt="" />
+        <img src="/20250404_185557.jpg" alt="" />
         <h2
           style={{ fontWeight: "400", fontFamily: "K2D", fontSize: "1.2rem" }}
         >
@@ -37,21 +37,20 @@ const Contact = () => {
         Prendre rendez-vous
       </button>
       <div className="social-icons">
-        <img src="public/github.png" alt="" />
-        <img src="" alt="" />
-
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-
-        <a href="#" className="icon-link">
-          GitHub
+        <a href="https://github.com/Tenefou" className="icon-link">
+          <img src="/github.png" alt="" />
         </a>
-        <a href="#" className="icon-link">
-          YouTube
+        <a href="https://www.youtube.com/@GasparRivoire" className="icon-link">
+          <img src="/youtube.png" alt="" />
         </a>
-        <a href="#" className="icon-link">
-          LinkedIn
+        <a
+          href="https://www.linkedin.com/in/gaspar-rivoire-gaiao/"
+          className="icon-link"
+        >
+          <img src="/linkedin.png" alt="" />
+        </a>
+        <a href="https://x.com/Tenefouu" className="icon-link">
+          <img src="/X.png" alt="" />
         </a>
       </div>
       <footer>

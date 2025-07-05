@@ -14,7 +14,7 @@ function Parcours() {
         entreprise="GROUPAMA SUPPORTS ET SERVICES"
         lieu="France"
         periode="OCTOBRE 2023 - AUJOURD'HUI"
-        logo="public/G2S.png"
+        logo="/G2S.png"
         alt="Logo Groupama"
         style={{ marginBottom: "70px", marginLeft: "20vw" }}
       />
@@ -23,7 +23,7 @@ function Parcours() {
         entreprise="KORBANK"
         lieu="Pologne"
         periode="AOUT - OCTOBRE 2024 "
-        logo="public/korbank.png"
+        logo="/korbank.png"
         alt="Logo Groupama"
         rightAligned={false}
         style={{ marginBottom: "70px", marginRight: "0vw" }}
@@ -33,7 +33,7 @@ function Parcours() {
         entreprise="MIKAZUKI HOTEL"
         lieu="Japon"
         periode="AOUT 2023"
-        logo="public/Mika.png"
+        logo="/Mika.png"
         alt="Logo Groupama"
         rightAligned={true}
         style={{ marginBottom: "70px", marginLeft: "47vw" }}

@@ -12,9 +12,10 @@
 
 .contact p {
   font-size: 1.2rem;
-  line-height: 3.3vh;
+  line-height: 4vh;
   max-width: 45vw;
   margin: 5vh auto;
+  margin-bottom: 2vh;
 }
 
 .contact a {
@@ -43,25 +44,38 @@
   font-size: 1rem;
   cursor: pointer;
   margin-top: 5vh;
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
   font-family: "kantumruy pro";
 }
 
 .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
   padding: 0.2vw;
   background-color: #150d17;
-  width: 20vw;
+  border-radius: 10vh;
+  height: 4vh;
+  width: 30vw;
 }
 
 .icon-link {
   color: #fff;
   text-decoration: none;
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon-link img {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 20%;
+  object-fit: cover;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
 }
 
 footer {
@@ -72,8 +86,8 @@ footer {
 .contact__circle-vert {
   position: absolute;
   padding: 0px;
-  top: 391.8vh;
-  left: 41vw;
+  top: 400.8vh;
+  left: 42.2vw;
   width: 23px;
   height: 23px;
   background: #22c55e;
