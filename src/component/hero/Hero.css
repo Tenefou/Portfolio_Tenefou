@@ -8,13 +8,14 @@
   align-items: center;
   justify-content: space-between;
   color: white;
+  overflow: hidden;
 }
 
 .hero__texte {
   display: flex;
   flex-direction: column;
-  padding-top: 30vh;
-  padding-left: 20vh;
+  padding-top: min(30vh, 20%);
+  padding-left: min(20vh, 10%);
   width: 40%;
   height: 100%;
   font-family: "Kantumruy Pro";
@@ -22,10 +23,8 @@
 }
 
 .hero__logo {
-  width: 130vh;
+  width: min(70vw, 60%);
   height: 100%;
-  padding: 20vh;
-  padding-top: 30vh;
 }
 
 h2 {
@@ -50,13 +49,40 @@ h2 {
   object-fit: cover;
 }
 
-.hero__circle-vert {
-  position: absolute;
-  top: 32.2vw;
-  left: 12.3vw;
-  width: 23px;
-  height: 23px;
-  background: #22c55e;
-  border-radius: 50%;
-  z-index: 2;
+@media screen and (max-width: 768px) {
+  .hero__logo {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__texte {
+    width: 100%;
+    padding-left: 10vw;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    font-size: 10vw;
+  }
+
+  .hero__texte h1 {
+    font-size: 10vw;
+  }
+
+  .hero__texte h2 {
+    font-size: 5.5vw;
+    line-height: 6vh;
+    font-weight: 300;
+    margin-top: 1vh;
+  }
+
+  .hero__contact img {
+    width: 10.5vw;
+    height: 10.5vw;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 }

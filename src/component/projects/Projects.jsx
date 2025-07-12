@@ -3,20 +3,20 @@ import ProjectCard from "../projectCard/ProjectCard";
 
 function Projects() {
   return (
-    <div className="projects" style={{ paddingBottom: "85vh" }}>
+    <div className="projects">
       <div className="projects__texte">
         <h1>Mes projets</h1>
         <div className="projects__projects">
           <ProjectCard
             title="Landing Page Boulangerie"
-            desc={`Création d'une landing page pour une boulangerie`}
+            desc={`Une landing page pour une boulangerie`}
             video="/LP_Boul.mp4"
             tags={["React", "Vite", "TS", "Framer Motion", "Tailwind"]}
           />
 
           <ProjectCard
             title="Project Risk of Pain"
-            desc={`Création d'une landing page pour une bibliothèque de modèle 3D`}
+            desc={`Une landing page pour une bibliothèque de modèle 3D`}
             video="/LP_3D.mp4"
             tags={["React", "Vite", "TS", "Framer Motion"]}
           />

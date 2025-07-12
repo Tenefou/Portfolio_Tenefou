@@ -28,9 +28,8 @@ function ExperienceItem({
       >
         <h4
           style={{
-            fontSize: "30px",
-            paddingLeft: rightAligned ? "250px" : "0",
-            paddingRight: rightAligned ? "0" : "250px",
+            paddingLeft: rightAligned ? "13vw" : "0",
+            paddingRight: rightAligned ? "0" : "13vw",
             marginBottom: "20px",
             color: "var(--color-primary)",
           }}
@@ -38,9 +37,9 @@ function ExperienceItem({
           {titre}
         </h4>
         <h4
+          className="parcours__current__texte__infos"
           style={{
             fontWeight: "100",
-            fontSize: "20px",
             lineHeight: "30px",
           }}
         >
@@ -50,9 +49,12 @@ function ExperienceItem({
         </h4>
       </div>
       <img
+        className="parcours__current__logo"
         style={{
-          paddingRight: rightAligned ? "400px" : "0",
-          paddingLeft: rightAligned ? "0" : "400px",
+          paddingRight: rightAligned ? "30vw" : "0",
+          paddingLeft: rightAligned ? "0" : "10vw",
+          width: "10vw",
+          height: "10vw",
         }}
         src={logo}
         alt={alt}

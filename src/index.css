@@ -36,3 +36,9 @@ h2 {
 h3 {
   font-size: var(--font-size-small);
 }
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 0.1rem;
+  }
+}

@@ -16,18 +16,21 @@ function Parcours() {
         periode="OCTOBRE 2023 - AUJOURD'HUI"
         logo="/G2S.png"
         alt="Logo Groupama"
-        style={{ marginBottom: "70px", marginLeft: "20vw" }}
+        style={{ marginLeft: "8vw" }}
       />
-      <ExperienceItem
-        titre="Stage technicien - Développeur Informatique"
-        entreprise="KORBANK"
-        lieu="Pologne"
-        periode="AOUT - OCTOBRE 2024 "
-        logo="/korbank.png"
-        alt="Logo Groupama"
-        rightAligned={false}
-        style={{ marginBottom: "70px", marginRight: "0vw" }}
-      />
+      <div className="parcours__right">
+        <ExperienceItem
+          titre="Stage technicien - Développeur Informatique"
+          entreprise="KORBANK"
+          lieu="Pologne"
+          periode="AOUT - OCTOBRE 2024 "
+          logo="/korbank.png"
+          alt="Logo Groupama"
+          rightAligned={false}
+          style={{ marginRight: "0vw" }}
+        />
+      </div>
+
       <ExperienceItem
         titre="Stage exécutant  - Agent d’entretien"
         entreprise="MIKAZUKI HOTEL"
@@ -36,7 +39,7 @@ function Parcours() {
         logo="/Mika.png"
         alt="Logo Groupama"
         rightAligned={true}
-        style={{ marginBottom: "70px", marginLeft: "47vw" }}
+        style={{ marginLeft: "40vw" }}
       />
     </div>
   );

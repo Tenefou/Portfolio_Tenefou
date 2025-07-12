@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -14,11 +14,11 @@
 }
 
 .navbar__logo {
-  padding-left: 20vh;
+  padding-left: 10vw;
   width: 10%;
   height: 100%;
 }
 
 .navbar__links {
-  padding-right: 20vh;
+  padding-right: 10vw;
 }

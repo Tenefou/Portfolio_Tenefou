@@ -3,37 +3,20 @@ import PropTypes from "prop-types";
 function ProjectCard({
   title = "Mon projet",
   desc = "Description du projet",
-  color = "#32213A",
-  fontFamily = "Kameron",
   image = "",
   video = "",
   tags = [],
   ...props
 }) {
   return (
-    <div
-      style={{
-        borderRadius: "10px",
-        border: "none",
-        background: "#32213A",
-        backgroundColor: color,
-        cursor: "pointer",
-        height: "50vh",
-        width: "70vh",
-        lineHeight: "0.1",
-        fontFamily: fontFamily,
-        fontSize: "18px",
-        boxShadow: "0 5px 4px 0 #dbc07255",
-      }}
-      {...props}
-    >
+    <div className="project-card" {...props}>
       {video ? (
         <video
           src={video}
           controls
           style={{
             width: "100%",
-            height: "30vh",
+            height: "25vh",
             objectFit: "contain",
             borderRadius: "4px 4px 0 0",
             background: "#222",
@@ -56,9 +39,9 @@ function ProjectCard({
       )}
       <h3
         style={{
-          paddingLeft: "15px",
+          paddingLeft: "1.5vw",
           color: "var(--color-primary)",
-          fontSize: "2em",
+          fontSize: "1.5rem",
           fontWeight: 1000,
           paddingBottom: "20px",
         }}
@@ -67,9 +50,10 @@ function ProjectCard({
       </h3>
       <p
         style={{
-          paddingLeft: "15px",
+          paddingLeft: "1.5vw",
           paddingBottom: "35px",
           whiteSpace: "pre-line",
+          color: "#fff",
         }}
       >
         {desc}

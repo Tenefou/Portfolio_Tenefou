@@ -27,9 +27,8 @@ function Hero() {
           Me contacter
         </Button>
         <div className="hero__contact">
-          <div className="hero__circle-vert"></div>
           <img src="/20250404_185557.jpg" alt="" />
-          <h2 style={{ fontWeight: "400" }}>
+          <h2 style={{ fontWeight: "400", fontSize: "1.2rem" }}>
             <span style={{ fontWeight: "bolder" }}>Temps de réponse :</span> 1 à
             2 jours ouvré
           </h2>
