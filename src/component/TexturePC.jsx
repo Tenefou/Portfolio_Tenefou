@@ -1,9 +1,7 @@
 import { useGLTF } from "@react-three/drei";
-import { useThree } from "@react-three/fiber";
 
 export function Model(props) {
   const { nodes, materials } = useGLTF("/TexturePC-transformed.glb");
-  const { viewport } = useThree();
 
   const scaleFactor = 2;
 

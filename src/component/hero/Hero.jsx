@@ -59,6 +59,7 @@ function Hero() {
             autoRotate
             autoRotateSpeed={0.4}
             enableZoom={false}
+            enablePan={false}
             minPolarAngle={0}
             maxPolarAngle={Math.PI / 2.5}
           />
