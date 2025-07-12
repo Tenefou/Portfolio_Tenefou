@@ -9,7 +9,7 @@ function Parcours() {
       </h4>
       <ExperienceItem
         titre="Alternance - Ingénieur Développeur FULLSTACK"
-        stacks={["Java Spring Boot", "AngularJS", "VueJS"]}
+        stacks={["Java Spring Boot", "Angular", "VueJS"]}
         entreprise="GROUPAMA SUPPORTS ET SERVICES"
         lieu="France"
         periode="OCTOBRE 2023 - AUJOURD'HUI"
