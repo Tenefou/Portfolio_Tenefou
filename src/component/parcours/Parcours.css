@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 130vh;
   background-image: url(/chemin.png);
-  background-size: 50vw;
+  background-size: 55vw;
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: 9vh;
@@ -14,9 +14,8 @@
   overflow-x: hidden;
 }
 
-.parcours h1 {
-  margin-top: -10px;
-  margin-bottom: 6vh;
+.parcours h4 {
+  margin-top: 1vw;
 }
 
 .parcours__current {
@@ -47,6 +46,11 @@
 
 .parcours__current__texte__infos {
   font-size: 1vw;
+  line-height: 2vw;
+}
+
+.parcours__current__texte span {
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,12 +59,17 @@
     margin-top: 100vh;
   }
 
-  .parcours__current__texte {
-    font-size: 1rem;
+  .parcours__current__texte h4 {
+    font-size: 0.8rem;
   }
 
   .parcours__current__texte__infos {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
+    line-height: 5vw;
+  }
+
+  .parcours__current__texte span {
+    font-size: 0.5rem;
   }
 
   .parcours__current img {
@@ -68,15 +77,19 @@
   }
 
   .parcours__current {
-    margin-bottom: 15vw;
+    margin-bottom: 28vw;
   }
 
   .parcours__right {
-    margin-left: 0vw;
+    margin-left: -30vw;
   }
 
   .parcours h1 {
     margin-top: 0px;
-    margin-bottom: 6vh;
+    margin-bottom: 10vh;
+  }
+  .parcours h4 {
+    margin-top: 0px;
+    margin-bottom: 10vh;
   }
 }

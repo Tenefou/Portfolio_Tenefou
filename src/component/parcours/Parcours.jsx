@@ -9,6 +9,7 @@ function Parcours() {
       </h4>
       <ExperienceItem
         titre="Alternance - Ingénieur Développeur FULLSTACK"
+        stacks={["Java Spring Boot", "AngularJS", "VueJS"]}
         entreprise="GROUPAMA SUPPORTS ET SERVICES"
         lieu="France"
         periode="OCTOBRE 2023 - AUJOURD'HUI"
@@ -19,6 +20,7 @@ function Parcours() {
       <div className="parcours__right">
         <ExperienceItem
           titre="Stage technicien - Développeur Informatique"
+          stacks={["React", "Vite", "linux"]}
           entreprise="KORBANK"
           lieu="Pologne"
           periode="AOUT - OCTOBRE 2024 "
@@ -28,7 +30,6 @@ function Parcours() {
           style={{ marginLeft: "30vw" }}
         />
       </div>
-
       <ExperienceItem
         titre="Stage exécutant  - Agent d’entretien"
         entreprise="MIKAZUKI HOTEL"

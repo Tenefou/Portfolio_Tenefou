@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 function ExperienceItem({
   titre = "Titre du poste",
+  stacks = [],
   entreprise = "Nom entreprise",
   lieu = "France",
   periode = "DATE - DATE",
@@ -30,23 +31,51 @@ function ExperienceItem({
           style={{
             paddingLeft: rightAligned ? "0vw" : "0",
             paddingRight: rightAligned ? "0" : "0vw",
-            marginBottom: "20px",
+            marginBottom: "1vw",
             color: "var(--color-primary)",
           }}
         >
           {titre}
         </h4>
-        <h4
+        <div
+          style={{
+            paddingBottom: "1vw",
+            display: "flex",
+            gap: "8px",
+            flexWrap: "wrap",
+            height: "auto",
+            alignItems: "center",
+          }}
+        >
+          {stacks.map((stack, idx) => (
+            <span
+              key={idx}
+              style={{
+                background: "#dbc07222",
+                color: "#dbc072",
+                borderRadius: "5px",
+                padding: "2px 10px",
+                fontWeight: 600,
+                border: "1px solid #dbc07255",
+                height: "100%",
+                lineHeight: "1.3",
+              }}
+            >
+              {stack}
+            </span>
+          ))}
+        </div>
+
+        <p
           className="parcours__current__texte__infos"
           style={{
             fontWeight: "100",
-            lineHeight: "30px",
           }}
         >
           {entreprise}, {lieu}
           <br />
           {periode}
-        </h4>
+        </p>
       </div>
       <img
         className="parcours__current__logo"
@@ -65,6 +94,7 @@ function ExperienceItem({
 
 ExperienceItem.propTypes = {
   titre: PropTypes.string,
+  stacks: PropTypes.arrayOf(PropTypes.string),
   entreprise: PropTypes.string,
   lieu: PropTypes.string,
   periode: PropTypes.string,

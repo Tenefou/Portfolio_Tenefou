@@ -37,6 +37,7 @@ h2 {
 .hero__contact {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding-top: 7vh;
   gap: 2vh;
   font-family: "K2D";
@@ -85,5 +86,9 @@ h2 {
     height: 10.5vw;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  .hero__contact h2 {
+    font-size: 4vw;
   }
 }
