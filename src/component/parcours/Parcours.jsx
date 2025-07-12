@@ -3,9 +3,7 @@ import ExperienceItem from "../experienceItems/ExperienceItem.jsx";
 function Parcours() {
   return (
     <div className="parcours">
-      <h1 style={{ marginTop: "-10px", marginBottom: "6vh" }}>
-        Expérience Professionnelle
-      </h1>
+      <h1>Expérience Professionnelle</h1>
       <h4 style={{ fontSize: "25px", fontFamily: "Kodchasan" }}>
         Aujourd&apos;hui
       </h4>
@@ -27,7 +25,7 @@ function Parcours() {
           logo="/korbank.png"
           alt="Logo Groupama"
           rightAligned={false}
-          style={{ marginRight: "0vw" }}
+          style={{ marginLeft: "30vw" }}
         />
       </div>
 

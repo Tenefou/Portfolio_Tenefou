@@ -8,9 +8,9 @@
   --color-text: #d8d6d6;
 
   /* Tailles de police */
-  --font-size-large: 3rem;
-  --font-size-medium: 1.5rem;
-  --font-size-small: 1rem;
+  --font-size-large: 2.75vw;
+  --font-size-medium: 1.25vw;
+  --font-size-small: 0.75vw;
 
   /* Espacements */
   --spacing-large: 20vh;
@@ -39,6 +39,14 @@ h3 {
 
 @media screen and (max-width: 768px) {
   h3 {
+    font-size: 0.1rem;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
     font-size: 0.1rem;
   }
 }

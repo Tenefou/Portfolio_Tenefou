@@ -3,7 +3,8 @@
   background-position: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   color: white;
   margin-bottom: 25vh;
 }
@@ -12,8 +13,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 25vh;
-  padding-left: 10vw;
-  width: 40%;
+  width: 100%;
   height: 100%;
   font-family: "Kantumruy Pro";
   color: var(--color-text);
@@ -22,13 +22,21 @@
 
 .projects__projects {
   display: grid;
-  width: 80vw;
+  width: 75vw;
   height: 100vh;
   grid-template-columns: repeat(2, 1fr);
   gap: 10vh;
   padding: 10vh;
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
+}
+
+.project_div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
 }
 
 .project-card {
@@ -36,19 +44,23 @@
   border: none;
   background: #32213a;
   cursor: pointer;
-  height: 42vh;
+  height: auto;
   width: 30vw;
-  line-height: 0.1;
   font-size: 18px;
   box-shadow: 0 5px 4px 0 #dbc07255;
   color: #32213a;
   font-family: "Kameron";
 }
 
+.projects__texte {
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   .project-card {
     width: 70vw;
-    height: 43vh;
+    height: auto;
   }
 
   .project-card h1 {
@@ -56,9 +68,17 @@
     height: 50vw;
   }
 
+  .project-card h2 {
+    font-size: 5vw;
+  }
+
+  .project-card p {
+    font-size: 2.75vw;
+  }
+
   .projects__texte {
     padding-top: 25vh;
-    padding-left: 10vw;
+    padding-left: 0vw;
   }
 
   .projects {
@@ -73,6 +93,7 @@
 
   .projects__projects {
     grid-template-columns: 1fr;
+    width: 90vw;
     gap: 5vh;
     padding: 5vh;
     height: 100vh;

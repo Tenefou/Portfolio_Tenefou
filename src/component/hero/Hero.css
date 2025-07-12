@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   padding-top: 5vh;
   display: flex;
@@ -58,12 +58,13 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 0vh;
   }
 
   .hero__texte {
     width: 100%;
     padding-left: 10vw;
-    padding-top: 20vh;
+    padding-top: 50vh;
     padding-bottom: 10vh;
     font-size: 10vw;
   }

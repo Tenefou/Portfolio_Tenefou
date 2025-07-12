@@ -37,22 +37,22 @@ function ProjectCard({
           />
         )
       )}
-      <h3
+      <h2
         style={{
-          paddingLeft: "1.5vw",
+          paddingLeft: "1vw",
           color: "var(--color-primary)",
-          fontSize: "1.5rem",
           fontWeight: 1000,
-          paddingBottom: "20px",
+          marginTop: "0px",
         }}
       >
         {title}
-      </h3>
+      </h2>
       <p
         style={{
-          paddingLeft: "1.5vw",
-          paddingBottom: "35px",
+          paddingLeft: "1vw",
+          paddingBottom: "2vw",
           whiteSpace: "pre-line",
+          wordWrap: "break-word",
           color: "#fff",
         }}
       >
@@ -60,11 +60,12 @@ function ProjectCard({
       </p>
       <div
         style={{
-          paddingLeft: "15px",
+          paddingLeft: "1vw",
+          paddingBottom: "1vw",
           display: "flex",
           gap: "8px",
           flexWrap: "wrap",
-          height: "20px",
+          height: "auto",
           alignItems: "center",
         }}
       >

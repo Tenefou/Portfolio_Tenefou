@@ -15,7 +15,6 @@ const Contact = () => {
         className="hero__contact"
         style={{ justifyContent: "center", paddingTop: "0px" }}
       >
-        <div className="contact__circle-vert"></div>
         <img src="/20250404_185557.jpg" alt="" />
         <h2
           style={{ fontWeight: "400", fontFamily: "K2D", fontSize: "1.2rem" }}

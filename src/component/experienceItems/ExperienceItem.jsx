@@ -28,8 +28,8 @@ function ExperienceItem({
       >
         <h4
           style={{
-            paddingLeft: rightAligned ? "13vw" : "0",
-            paddingRight: rightAligned ? "0" : "13vw",
+            paddingLeft: rightAligned ? "0vw" : "0",
+            paddingRight: rightAligned ? "0" : "0vw",
             marginBottom: "20px",
             color: "var(--color-primary)",
           }}
