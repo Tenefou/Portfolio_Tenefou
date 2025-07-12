@@ -22,8 +22,23 @@ function Hero() {
           <span style={{ color: "var(--color-primary)" }}>
             Groupama Supports et Services
           </span>
+          . Je cherche un
+          <span style={{ color: "var(--color-primary)" }}> CDI </span>à partir
+          de septembre 2025.
         </h2>
-        <Button size="large" radius="2px" height="50px" width="250px">
+        <Button
+          size="large"
+          radius="2px"
+          height="50px"
+          width="250px"
+          onClick={() =>
+            window.open(
+              "https://calendly.com/gaspar-rg69/30min",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
+        >
           Me contacter
         </Button>
         <div className="hero__contact">

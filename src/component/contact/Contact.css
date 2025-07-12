@@ -82,3 +82,33 @@ footer {
   font-size: 0.8rem;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 20px;
+    margin-top: -10vh;
+  }
+
+  .contact p {
+    font-size: 0.8rem;
+    max-width: 80vw;
+    line-height: 5vw;
+  }
+
+  .email-button {
+    padding: 1vh 1.5vw;
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    width: 80vw;
+    height: 2vh;
+    flex-wrap: wrap;
+    padding: 2vw;
+  }
+
+  .icon-link img {
+    width: 4vw;
+    height: 4vw;
+  }
+}

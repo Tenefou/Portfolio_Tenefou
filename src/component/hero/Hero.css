@@ -88,6 +88,10 @@ h2 {
     object-fit: cover;
   }
 
+  .hero__contact {
+    align-items: center;
+  }
+
   .hero__contact h2 {
     font-size: 4vw;
   }

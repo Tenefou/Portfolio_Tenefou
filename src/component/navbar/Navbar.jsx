@@ -2,10 +2,15 @@ import "./Navbar.css";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Button from "../button/Button";
+import PropTypes from "prop-types";
 
 import { Model } from "../RG";
 
-function Navbar() {
+Navbar.propTypes = {
+  onContactClick: PropTypes.func.isRequired,
+};
+
+function Navbar({ onContactClick }) {
   return (
     <div className="navbar">
       <div className="navbar__logo">
@@ -24,7 +29,13 @@ function Navbar() {
         </Canvas>
       </div>
       <div className="navbar__links">
-        <Button size="medium" radius="4px" height="30px" width="125px">
+        <Button
+          size="medium"
+          radius="4px"
+          height="30px"
+          width="125px"
+          onClick={onContactClick}
+        >
           Contact
         </Button>
       </div>

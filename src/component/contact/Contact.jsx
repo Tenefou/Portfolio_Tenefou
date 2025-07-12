@@ -10,15 +10,16 @@ const Contact = () => {
         <a href="mailto:gaspar.rivoire@gmail.com">me contacter</a>. Mon emploi
         du temps n’est pas illimité, donc plus tôt vous me contactez, et mieux
         ça sera.
+        <br />
+        Mon mail :{" "}
+        <a href="mailto:gaspar.rivoire@gmail.com">gaspar.rg69@gmail.com</a>
       </p>
       <div
         className="hero__contact"
         style={{ justifyContent: "center", paddingTop: "0px" }}
       >
         <img src="/20250404_185557.jpg" alt="" />
-        <h2
-          style={{ fontWeight: "400", fontFamily: "K2D", fontSize: "1.2rem" }}
-        >
+        <h2 style={{ fontWeight: "400", fontFamily: "K2D" }}>
           <span style={{ fontWeight: "bolder" }}>Temps de réponse :</span> 1 à 2
           jours ouvré
         </h2>
