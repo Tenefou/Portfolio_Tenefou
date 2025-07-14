@@ -20,7 +20,7 @@ function Parcours() {
       <div className="parcours__right">
         <ExperienceItem
           titre="Stage technicien - Développeur Informatique"
-          stacks={["React", "Vite", "linux"]}
+          stacks={["React", "Vite", "Linux"]}
           entreprise="KORBANK"
           lieu="Pologne"
           periode="AOUT - OCTOBRE 2024 "
@@ -31,7 +31,7 @@ function Parcours() {
         />
       </div>
       <ExperienceItem
-        titre="Stage exécutant  - Agent d’entretien"
+        titre="Stage ouvrier – Agent d’entretien"
         entreprise="MIKAZUKI HOTEL"
         lieu="Japon"
         periode="AOUT 2023"

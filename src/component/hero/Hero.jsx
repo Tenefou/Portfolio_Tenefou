@@ -16,7 +16,7 @@ function Hero() {
         <h2>
           Actuellement{" "}
           <span style={{ color: "var(--color-primary)" }}>
-            Developpeur FullStack
+            Développeur FullStack
           </span>{" "}
           en alternance à{" "}
           <span style={{ color: "var(--color-primary)" }}>
@@ -45,7 +45,7 @@ function Hero() {
           <img src="/20250404_185557.jpg" alt="" />
           <h2 style={{ fontWeight: "400" }}>
             <span style={{ fontWeight: "bolder" }}>Temps de réponse :</span> 1 à
-            2 jours ouvré
+            2 jours ouvrés
           </h2>
         </div>
       </div>

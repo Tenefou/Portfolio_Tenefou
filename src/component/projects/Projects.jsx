@@ -15,7 +15,7 @@ function Projects() {
           />
 
           <ProjectCard
-            title="Project Risk of Pain"
+            title="Landing Page bibliothèque modèles 3D"
             desc={`Une landing page pour une bibliothèque de modèle 3D`}
             video="/LP_3D.mp4"
             tags={["React", "Vite", "TS", "Framer Motion"]}
@@ -27,7 +27,7 @@ function Projects() {
             tags={["Unity", "C#"]}
           />
           <ProjectCard
-            title="Project Risk of Pain"
+            title="Risk of Pain"
             desc={`Développement d'un jeu TPS inspiré de Risk of Rain 2`}
             video="/Cool.mov"
             tags={["Unity", "C#"]}

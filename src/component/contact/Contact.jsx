@@ -21,7 +21,7 @@ const Contact = () => {
         <img src="/20250404_185557.jpg" alt="" />
         <h2 style={{ fontWeight: "400", fontFamily: "K2D" }}>
           <span style={{ fontWeight: "bolder" }}>Temps de réponse :</span> 1 à 2
-          jours ouvré
+          jours ouvrés
         </h2>
       </div>
       <button
